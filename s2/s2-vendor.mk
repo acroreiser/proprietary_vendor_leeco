@@ -87,12 +87,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/system/lib/libmpstream.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmpstream.so \
     vendor/leeco/s2/proprietary/system/lib/libmputility.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmputility.so \
     vendor/leeco/s2/proprietary/system/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
-    vendor/leeco/s2/proprietary/system/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.default.so \
-    vendor/leeco/s2/proprietary/system/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gxfingerprint.default.so \
-    vendor/leeco/s2/proprietary/system/lib64/libfp_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_client.so \
-    vendor/leeco/s2/proprietary/system/lib64/libfp_gf_intejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfp_gf_intejni.so \
-    vendor/leeco/s2/proprietary/system/lib64/libfpnav.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpnav.so \
-    vendor/leeco/s2/proprietary/system/lib64/libfpservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpservice.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8952.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libfp_gf_intejni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_gf_intejni.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpcmd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpcmd \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/leeco/s2/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
