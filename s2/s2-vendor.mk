@@ -766,10 +766,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/leeco/s2/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
-# Bluetooth A2DP
-PRODUCT_COPY_FILES += \
-    vendor/leeco/s2/proprietary/vendor/lib/hw/audio.a2dp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.a2dp.msm8952.so
-
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0 \
     libgpustats \
