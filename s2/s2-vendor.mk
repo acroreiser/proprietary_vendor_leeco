@@ -777,6 +777,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     UEIQuicksetSDKLeTV \
     CneApp \
+    IWlanService \
     TimeService \
     PowerOffAlarm \
     uceShimService \
